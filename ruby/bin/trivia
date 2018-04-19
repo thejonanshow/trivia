@@ -3,6 +3,7 @@ $:.unshift(File.dirname(__FILE__) + '/../lib')
 
 require 'ugly_trivia/game'
 
+Kernel.srand(7)
 not_a_winner = false
 
 game = UglyTrivia::Game.new
